@@ -61,28 +61,28 @@ Now, we need to go to Vast.ai to order a GPU server to mine the XenBlocks for us
      
   For single GPU use vast.sh:
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
   ```
   
   For 4 X GPU use vast4.sh:
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast4.sh && sudo chmod +x vast4.sh && sudo ./vast4.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast4.sh && sudo chmod +x vast4.sh && sudo ./vast4.sh
   ```      
 
   For 8 X GPU use vast8.sh:
  
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast8.sh && sudo chmod +x vast8.sh && sudo ./vast8.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast8.sh && sudo chmod +x vast8.sh && sudo ./vast8.sh
   ```
 
   For 12 X GPU use vast8.sh:
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast12.sh && sudo chmod +x vast12.sh && sudo ./vast12.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast12.sh && sudo chmod +x vast12.sh && sudo ./vast12.sh
   ```
 
   For 14 X GPU use vast8.sh:
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast14.sh && sudo chmod +x vast14.sh && sudo ./vast14.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast14.sh && sudo chmod +x vast14.sh && sudo ./vast14.sh
   ```      
 
 **VAST.AI - VIDEO DEMO**:
@@ -100,7 +100,7 @@ Now, we need to go to Vast.ai to order a GPU server to mine the XenBlocks for us
 
   - Steps are the same as above, just update `runpod.sh` file (with your ETH address) instead of vast.sh file.
    ```
-   apt update && apt -y install wget && wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/runpod.sh && chmod +x runpod.sh && ./runpod.sh
+   apt update && apt -y install wget && wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/runpod.sh && chmod +x runpod.sh && ./runpod.sh
    ```
 
 
