@@ -85,7 +85,12 @@ Now, we need to go to Vast.ai to order a GPU server to mine the XenBlocks for us
   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast8.sh && sudo chmod +x vast8.sh && sudo ./vast8.sh
   ```
 
-  For 12 X GPU use vast8.sh:
+  For 10 X GPU use vast10.sh:
+  ```
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast10.sh && sudo chmod +x vast10.sh && sudo ./vast10.sh
+  ```
+
+    For 12 X GPU use vast8.sh:
   ```
   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/newxgpu/main/vast12.sh && sudo chmod +x vast12.sh && sudo ./vast12.sh
   ```
