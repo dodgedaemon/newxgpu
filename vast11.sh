@@ -25,7 +25,7 @@ echo "STEP 6 of 10: Cloned https://github.com/shanhaicoder/XENGPUMiner.git"
 
 cd XENGPUMiner
 sudo chmod +x build.sh > /dev/null 2>&1
-sudo ./build.sh > /dev/null 2>&1
+sudo ./build.sh -cuda_arch sm_89 > /dev/null 2>&1
 echo "STEP 7 of 10: Permissions set!"
 
 sudo sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0x6A24d5689F57713E0f2B5C75B101005575dB7e63/g' config.conf > /dev/null 2>&1
@@ -56,6 +56,8 @@ sleep 1
 sudo nohup ./xengpuminer -d8 > xengpuminer-8.log 2>&1 &
 sleep 1
 sudo nohup ./xengpuminer -d9 > xengpuminer-9.log 2>&1 &
+sleep 1
+sudo nohup ./xengpuminer -d9 > xengpuminer-10.log 2>&1 &
 
 echo "-------------------------"
 echo "    MINING  XENBLOCKS    "
